@@ -1,0 +1,111 @@
+
+navbar-nav, li{
+    background: white;
+}
+.navbar-nav, a{
+    padding: 10px;
+    color: #b90000;
+    background: white;
+    text-transform: uppercase;
+    transition: 0.3s all ease;
+}
+.navbar-nav, a:hover{
+    color: black;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.mybtn{
+    color: white;
+    text-transform: uppercase;
+    background: #b90000;
+}
+.container .pagination {
+  width: inherit;
+  height: 50px;
+  margin: 5px auto;
+  text-align: center;
+  list-style: none;
+  vertical-align: bottom;
+  float: left;
+}
+.container .pagination li {
+  display: inline-block;
+    overflow: hidden;
+}
+.container .pagination li a {
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  vertical-align: baseline;
+  display: inline-block;
+  color: red;
+  font-size: 1.5em;
+  border: 1px solid red;
+  margin: 3px;
+}
+.container .pagination li a:hover {
+  color: black;
+  border: 1px solid black;
+}
+.container .pagination .disabled {
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  vertical-align: baseline;
+  color: red;
+  font-size: 1.5em;
+  border: 1px solid red;
+  margin: 3px;
+  display: inline-block;
+}
+.container .pagination .disabled span {
+  background: none;
+  color: red;
+  border: none;
+}
+.container .pagination .disabled:hover {
+  color: black;
+  border: 1px solid black;
+}
+.container .pagination .disabled:hover span {
+  color: black;
+}
+.container .pagination .active {
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  vertical-align: baseline;
+  background: none;
+  color: black;
+  font-size: 1.5em;
+  border: 1px solid black;
+  margin: 3px;
+  display: inline-block;
+}
+.container .pagination .active span {
+  background: #b90000;
+  color: white;
+  border: 1px solid #b90000;
+}
+.container .pagination .active:hover {
+  color: black;
+  border: 1px solid black;
+}
+.table thead{
+    color: white;
+    background: #b90000;
+}
+.table thead th{
+    text-align: center;
+    border: 1px solid white;
+    background: #b90000;
+    text-transform: uppercase;
+}
+body .container .error_field{
+    border:1px solid #b90000;
+    color:#b90000;
+}
+body .container .error_message{
+    border:1px solid #b90000;
+    color:#b90000;
+}
